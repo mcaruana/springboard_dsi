@@ -1,0 +1,15 @@
+Project Ideas:
+
+(1) Can we predict TV ratings for nationally broadcasted NFL games?
+
+This is a follow up to a project I started but never finished for my NYC Data Science Academy class. For networks like NBC, there is a ton of money to be made by having the highest rated sports events. One of the challenges of NBC faces is that they compete with other networks for the rights to air specific prime-time games. Understanding the determinants of ratings for NFL games while controlling for factors that are out of NBC’s control (e.g. day of week) would help inform the forecasting process. Additionally (and this is where I think things can get fun), is whether or not this information can be used to help NBC’s programming team prioritize which games are best to air in any given week before the season starts. There are a bunch of disparate data sources available for this. The first is the Nielsen ratings, which I can grab but will require some serious cleaning as Nielsen’s naming conventions are ugly. The second is the NFL-related information (team, record at time of game, location). Third is competitive (betting line, win probability). Fourth is expectations for the season (Grantland/538 has definitely done this in the past). 
+
+(2) Can social graphs tell us what makes a good (or bad) sitcom?
+
+This project was inspired by this analysis of Star Wars: http://www.kdnuggets.com/2015/12/star-wars-social-network-who-is-central-character.html?platform=hootsuite
+
+There are a lot of bad sitcoms (particularly on NBC), and most of them don’t last the first season. Assuming I can get the scripts like the person above did, I would be really interested in seeing if there seas something in the way the networks on “failed” shows are constructed that we could learn from and use to detect features in future scripts. Again, Nielsen data would be a key component. The other would be the scripts themselves.
+
+(3) Can you characterize a program’s fans through it’s twitter followers?
+
+This may be the least thought out, but one of the things that NBC tries to do is identify viewers through a lens outside of the regular Gender/Age Group selections. Recent attempts have included primary research. If I can get my hands on enough data (would have to be through work), it would be interesting to see whether I could create a profile for a given show(s) viewers and come up with a way to leverage those profiles for recommendations or advertising. 
